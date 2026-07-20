@@ -1,0 +1,48 @@
+# Virtual Environment
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Build
+build/
+dist/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# History
+history/scans.csv
+
+# Cache
+.pytest_cache/
+.cache/
+
+# Temporary
+*.tmp
+*.bak
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment Variables
+.env
+
+# Camera Images
+captures/
+
+# Generated files
+*.csv
