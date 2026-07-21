@@ -14,7 +14,6 @@ class CameraView(tk.Frame):
             self,
             bg="black"
         )
-
         self.label.pack(
             fill="both",
             expand=True
