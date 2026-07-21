@@ -4,9 +4,7 @@ Entry Point
 """
 
 import customtkinter as ctk
-
 from gui.main_window import MainWindow
-
 
 def main():
 
