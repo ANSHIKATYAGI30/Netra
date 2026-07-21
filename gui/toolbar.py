@@ -1,6 +1,5 @@
 import customtkinter as ctk
 
-
 class Toolbar(ctk.CTkFrame):
     """
     Top toolbar for Netra.
