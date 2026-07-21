@@ -30,9 +30,7 @@ class MainWindow(ctk.CTk):
         # ---------------- Scanner ---------------- #
 
         self.scanner = Scanner()
-
         self.camera_running = False
-
         self.latest_data = ""
         self.latest_type = ""
 
