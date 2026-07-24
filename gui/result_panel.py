@@ -8,7 +8,6 @@ class ResultPanel(ctk.CTkFrame):
     def __init__(self, master):
         super().__init__(master)
         self.configure(width=300)
-        
         title = ctk.CTkLabel(
             self,
             text="Latest Scan",
