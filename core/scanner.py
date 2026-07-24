@@ -3,7 +3,6 @@ from core.detector import QRDetector
 from core.history import ScanHistory
 from core.utils import Utils
 
-
 class Scanner:
     """
     Main scanning engine for Netra.
