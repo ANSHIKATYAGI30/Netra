@@ -17,7 +17,7 @@ class Scanner:
         self.camera = Camera()
         self.detector = QRDetector()
         self.history = ScanHistory()
-
+        
         # Last successfully scanned QR
         self.last_scan = None
 
