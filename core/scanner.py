@@ -53,9 +53,7 @@ class Scanner:
 
             # Avoid duplicate scans
             if data != self.last_scan:
-
                 self.last_scan = data
-
                 self.history.save_scan(
                     qr_type,
                     data
