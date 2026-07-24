@@ -1,24 +1,18 @@
 import customtkinter as ctk
 
-
 class Sidebar(ctk.CTkFrame):
     """
     Left navigation sidebar.
     """
-
     def __init__(self, master):
         super().__init__(master, width=220, corner_radius=0)
-
         self.grid_rowconfigure(10, weight=1)
-
         self.logo = ctk.CTkLabel(
             self,
             text="👁 NETRA",
             font=("Segoe UI", 26, "bold")
         )
-
         self.logo.pack(pady=(25, 5))
-
         self.subtitle = ctk.CTkLabel(
             self,
             text="Intelligent Vision Suite",
