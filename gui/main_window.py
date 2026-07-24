@@ -184,7 +184,6 @@ class MainWindow(ctk.CTk):
         self.statusbar.update_status(
             "Camera Stopped"
         )
-
         try:
             self.live_view.clear()
         except AttributeError:
