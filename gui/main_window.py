@@ -14,7 +14,6 @@ from gui.statusbar import StatusBar
 from tkinter import filedialog
 
 class MainWindow(ctk.CTk):
-
     def __init__(self):
         super().__init__()
 
