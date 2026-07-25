@@ -4,6 +4,7 @@ class Sidebar(ctk.CTkFrame):
     """
     Left navigation sidebar.
     """
+    
     def __init__(self, master):
         super().__init__(master, width=220, corner_radius=0)
         self.grid_rowconfigure(10, weight=1)
