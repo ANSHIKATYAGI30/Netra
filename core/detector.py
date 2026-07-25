@@ -4,7 +4,6 @@ class QRDetector:
     """
     Handles QR code detection and decoding.
     """
-    
     def __init__(self):
         self.detector = cv2.QRCodeDetector()
 
