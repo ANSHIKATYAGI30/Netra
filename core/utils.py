@@ -4,7 +4,6 @@ from datetime import datetime
 
 import pyperclip
 
-
 class Utils:
     """
     Utility functions for Netra.
