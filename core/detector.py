@@ -50,7 +50,6 @@ class QRDetector:
                         int(point[1])
                     )
                 )
-
             results.append(
                 {
                     "data": text,
