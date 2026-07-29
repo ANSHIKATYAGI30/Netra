@@ -1,6 +1,5 @@
 import customtkinter as ctk
 
-
 class StatusBar(ctk.CTkFrame):
 
     def __init__(self, master):
