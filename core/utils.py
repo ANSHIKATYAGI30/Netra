@@ -1,14 +1,12 @@
 import re
 import webbrowser
 from datetime import datetime
-
 import pyperclip
 
 class Utils:
     """
     Utility functions for Netra.
     """
-
     @staticmethod
     def detect_qr_type(data: str) -> str:
         """
