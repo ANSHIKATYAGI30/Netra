@@ -4,7 +4,6 @@ class ResultPanel(ctk.CTkFrame):
     """
     Displays the latest scan details.
     """
-
     def __init__(self, master):
         super().__init__(master)
         self.configure(width=300)
