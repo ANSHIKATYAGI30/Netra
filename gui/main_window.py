@@ -16,7 +16,6 @@ from tkinter import filedialog
 class MainWindow(ctk.CTk):
     def __init__(self):
         super().__init__()
-
         # ---------------- Window ---------------- #
 
         self.title("👁 Netra - Intelligent Vision Suite")
