@@ -354,14 +354,10 @@ class MainWindow(ctk.CTk):
 
         self.statusbar.update_status(f"Detected : {qr_type}")
 
-    # =====================================================
     # Cleanup
-    # =====================================================
-
     def on_close(self):
         try:
             self.stop_camera()
-
         except Exception:
             pass
         
