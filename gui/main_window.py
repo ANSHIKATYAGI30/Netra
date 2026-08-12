@@ -189,30 +189,22 @@ class MainWindow(ctk.CTk):
 
         self.statusbar.update_status("Camera Stopped")
 
-    # =====================================================
+    
     # Toolbar Actions
-    # =====================================================
-
     def copy_result(self):
-
         if self.latest_data:
-
             Utils.copy_to_clipboard(
                 self.latest_data
             )
-
             self.statusbar.update_status(
                 "Copied to clipboard"
             )
 
     def open_result(self):
-
         if self.latest_type == "URL":
-
             Utils.open_url(
                 self.latest_data
             )
-
             self.statusbar.update_status(
                 "Opening URL..."
             )
