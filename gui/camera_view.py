@@ -43,7 +43,6 @@ class CameraView(tk.Frame):
         )
 
     def clear(self):
-
         self.label.configure(
             image=""
         )
