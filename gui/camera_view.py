@@ -18,7 +18,6 @@ class CameraView(tk.Frame):
             fill="both",
             expand=True
         )
-
         self.current_image = None
 
     def update_frame(self, frame):
